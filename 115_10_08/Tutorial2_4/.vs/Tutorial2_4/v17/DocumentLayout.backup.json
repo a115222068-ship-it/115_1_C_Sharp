@@ -18,17 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_08\\Tutorial2_4\\Tutorial2_4\\Form1.cs",
               "RelativeDocumentMoniker": "Tutorial2_4\\Form1.cs",
-              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_08\\Tutorial2_4\\Tutorial2_4\\Form1.cs*",
-              "RelativeToolTip": "Tutorial2_4\\Form1.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_08\\Tutorial2_4\\Tutorial2_4\\Form1.cs",
+              "RelativeToolTip": "Tutorial2_4\\Form1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-08T08:12:18.19Z",
               "EditorCaption": ""
@@ -39,15 +43,11 @@
               "Title": "Form1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_08\\Tutorial2_4\\Tutorial2_4\\Form1.cs",
               "RelativeDocumentMoniker": "Tutorial2_4\\Form1.cs",
-              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_08\\Tutorial2_4\\Tutorial2_4\\Form1.cs [\u8A2D\u8A08]*",
-              "RelativeToolTip": "Tutorial2_4\\Form1.cs [\u8A2D\u8A08]*",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_08\\Tutorial2_4\\Tutorial2_4\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Tutorial2_4\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-08T07:41:31.525Z",
               "EditorCaption": " [\u8A2D\u8A08]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
