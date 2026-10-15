@@ -44,112 +44,137 @@
             // 
             // dayOfWeekTextBox
             // 
-            this.dayOfWeekTextBox.Location = new System.Drawing.Point(188, 15);
+            this.dayOfWeekTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayOfWeekTextBox.Location = new System.Drawing.Point(330, 25);
+            this.dayOfWeekTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dayOfWeekTextBox.Name = "dayOfWeekTextBox";
-            this.dayOfWeekTextBox.Size = new System.Drawing.Size(100, 20);
+            this.dayOfWeekTextBox.Size = new System.Drawing.Size(268, 48);
             this.dayOfWeekTextBox.TabIndex = 0;
+            this.dayOfWeekTextBox.TextChanged += new System.EventHandler(this.dayOfWeekTextBox_TextChanged);
             // 
             // monthTextBox
             // 
-            this.monthTextBox.Location = new System.Drawing.Point(188, 41);
+            this.monthTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthTextBox.Location = new System.Drawing.Point(330, 89);
+            this.monthTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.monthTextBox.Name = "monthTextBox";
-            this.monthTextBox.Size = new System.Drawing.Size(100, 20);
+            this.monthTextBox.Size = new System.Drawing.Size(268, 48);
             this.monthTextBox.TabIndex = 1;
             // 
             // dayOfMonthTextBox
             // 
-            this.dayOfMonthTextBox.Location = new System.Drawing.Point(188, 67);
+            this.dayOfMonthTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayOfMonthTextBox.Location = new System.Drawing.Point(330, 152);
+            this.dayOfMonthTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dayOfMonthTextBox.Name = "dayOfMonthTextBox";
-            this.dayOfMonthTextBox.Size = new System.Drawing.Size(100, 20);
+            this.dayOfMonthTextBox.Size = new System.Drawing.Size(268, 48);
             this.dayOfMonthTextBox.TabIndex = 2;
             // 
             // yearTextBox
             // 
-            this.yearTextBox.Location = new System.Drawing.Point(188, 93);
+            this.yearTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yearTextBox.Location = new System.Drawing.Point(330, 216);
+            this.yearTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.yearTextBox.Name = "yearTextBox";
-            this.yearTextBox.Size = new System.Drawing.Size(100, 20);
+            this.yearTextBox.Size = new System.Drawing.Size(268, 48);
             this.yearTextBox.TabIndex = 3;
             // 
             // dayOfWeekPromptLabel
             // 
             this.dayOfWeekPromptLabel.AutoSize = true;
-            this.dayOfWeekPromptLabel.Location = new System.Drawing.Point(52, 18);
+            this.dayOfWeekPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayOfWeekPromptLabel.Location = new System.Drawing.Point(24, 33);
+            this.dayOfWeekPromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dayOfWeekPromptLabel.Name = "dayOfWeekPromptLabel";
-            this.dayOfWeekPromptLabel.Size = new System.Drawing.Size(129, 13);
+            this.dayOfWeekPromptLabel.Size = new System.Drawing.Size(197, 40);
             this.dayOfWeekPromptLabel.TabIndex = 4;
-            this.dayOfWeekPromptLabel.Text = "Enter the day of the week";
+            this.dayOfWeekPromptLabel.Text = "輸入星期幾";
             // 
             // monthPromptLabel
             // 
             this.monthPromptLabel.AutoSize = true;
-            this.monthPromptLabel.Location = new System.Drawing.Point(40, 41);
+            this.monthPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthPromptLabel.Location = new System.Drawing.Point(24, 97);
+            this.monthPromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.monthPromptLabel.Name = "monthPromptLabel";
-            this.monthPromptLabel.Size = new System.Drawing.Size(141, 13);
+            this.monthPromptLabel.Size = new System.Drawing.Size(233, 40);
             this.monthPromptLabel.TabIndex = 5;
-            this.monthPromptLabel.Text = "Enter the name of the month";
+            this.monthPromptLabel.Text = "輸入月份名稱";
             // 
             // dayOfMonthPromptLabel
             // 
             this.dayOfMonthPromptLabel.AutoSize = true;
-            this.dayOfMonthPromptLabel.Location = new System.Drawing.Point(9, 70);
+            this.dayOfMonthPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayOfMonthPromptLabel.Location = new System.Drawing.Point(24, 161);
+            this.dayOfMonthPromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dayOfMonthPromptLabel.Name = "dayOfMonthPromptLabel";
-            this.dayOfMonthPromptLabel.Size = new System.Drawing.Size(172, 13);
+            this.dayOfMonthPromptLabel.Size = new System.Drawing.Size(305, 40);
             this.dayOfMonthPromptLabel.TabIndex = 6;
-            this.dayOfMonthPromptLabel.Text = "Enter the numeric day of the month";
+            this.dayOfMonthPromptLabel.Text = "輸入日期（數字）";
             // 
             // yearPromptLabel
             // 
             this.yearPromptLabel.AutoSize = true;
-            this.yearPromptLabel.Location = new System.Drawing.Point(108, 96);
+            this.yearPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yearPromptLabel.Location = new System.Drawing.Point(24, 224);
+            this.yearPromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.yearPromptLabel.Name = "yearPromptLabel";
-            this.yearPromptLabel.Size = new System.Drawing.Size(73, 13);
+            this.yearPromptLabel.Size = new System.Drawing.Size(161, 40);
             this.yearPromptLabel.TabIndex = 7;
-            this.yearPromptLabel.Text = "Enter the year";
+            this.yearPromptLabel.Text = "輸入年份";
             // 
             // dateOutputLabel
             // 
             this.dateOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dateOutputLabel.Location = new System.Drawing.Point(9, 131);
+            this.dateOutputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOutputLabel.Location = new System.Drawing.Point(24, 291);
+            this.dateOutputLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dateOutputLabel.Name = "dateOutputLabel";
-            this.dateOutputLabel.Size = new System.Drawing.Size(278, 23);
+            this.dateOutputLabel.Size = new System.Drawing.Size(575, 68);
             this.dateOutputLabel.TabIndex = 8;
             this.dateOutputLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // showDateButton
             // 
-            this.showDateButton.Location = new System.Drawing.Point(31, 170);
+            this.showDateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showDateButton.Location = new System.Drawing.Point(60, 381);
+            this.showDateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.showDateButton.Name = "showDateButton";
-            this.showDateButton.Size = new System.Drawing.Size(75, 23);
+            this.showDateButton.Size = new System.Drawing.Size(165, 58);
             this.showDateButton.TabIndex = 9;
-            this.showDateButton.Text = "Show Date";
+            this.showDateButton.Text = "顯示日期";
             this.showDateButton.UseVisualStyleBackColor = true;
             this.showDateButton.Click += new System.EventHandler(this.showDateButton_Click);
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(112, 170);
+            this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.Location = new System.Drawing.Point(240, 381);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(75, 23);
+            this.clearButton.Size = new System.Drawing.Size(165, 58);
             this.clearButton.TabIndex = 10;
-            this.clearButton.Text = "Clear";
+            this.clearButton.Text = "清除";
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(193, 170);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.Location = new System.Drawing.Point(420, 381);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(165, 58);
             this.exitButton.TabIndex = 11;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 209);
+            this.ClientSize = new System.Drawing.Size(624, 471);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.showDateButton);
@@ -162,8 +187,9 @@
             this.Controls.Add(this.dayOfMonthTextBox);
             this.Controls.Add(this.monthTextBox);
             this.Controls.Add(this.dayOfWeekTextBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "Birth Date String";
+            this.Text = "出生日期字串";
             this.ResumeLayout(false);
             this.PerformLayout();
 

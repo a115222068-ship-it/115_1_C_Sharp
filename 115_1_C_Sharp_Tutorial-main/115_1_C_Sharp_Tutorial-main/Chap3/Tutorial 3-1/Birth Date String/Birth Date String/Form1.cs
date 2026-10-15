@@ -29,7 +29,16 @@ namespace Birth_Date_String
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+        }
+
+        private void dayOfWeekTextBox_TextChanged(object sender, EventArgs e)
+        {
+            string output;
+
+            output = dayOfWeekTextBox.Text + " " + monthTextBox.Text + " " + dayOfMonthTextBox.Text + ", " + yearTextBox.Text;
+
+            dateOutputLabel.Text = output; 
         }
     }
 }
